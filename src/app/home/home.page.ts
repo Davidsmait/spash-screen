@@ -9,5 +9,6 @@ import { IonicModule } from '@ionic/angular';
   imports: [IonicModule],
 })
 export class HomePage {
+  time = 4
   constructor() {}
 }

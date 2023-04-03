@@ -14,9 +14,9 @@ export class AppComponent implements OnInit{
   constructor() {}
 
   ngOnInit() {
-    SplashScreen.show({
+     SplashScreen.show({
       autoHide: true,
-      showDuration: 1000,
+      showDuration: 4000,
     });
     console.log('SplashScreen:  ',SplashScreen)
   }
